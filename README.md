@@ -32,9 +32,11 @@
 		aaptOptions.cruncherEnabled = false
 		aaptOptions.useNewCruncher = false
 	http://blog.csdn.net/u013443865/article/details/51232586
+	
 	二:由于android和iOS分辨率不同引入icon大小也要分别处理
 		在组件中引入Platform
 		Platform.OS === 'ios' ? 30 : 25
+
 	三:新升级到0.46版本以后 Navigator 不能使用报错。
 		1:切换到根目录
 		2:npm install react-native-deprecated-custom-components --save
